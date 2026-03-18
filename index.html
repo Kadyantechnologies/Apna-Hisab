@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apna Hisab | Your Money, Your Device, Your Control</title>
+    <meta name="description" content="A privacy-first personal finance app that works completely offline. No login. No cloud. No data sharing.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Material Symbols -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0" />
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Background Elements -->
+    <div class="bg-blob blob-1"></div>
+    <div class="bg-blob blob-2"></div>
+    <div class="bg-blob blob-3"></div>
+
+    <!-- Navigation -->
+    <header class="navbar glass-panel">
+        <div class="nav-container max-w">
+            <a href="#" class="logo">
+                <img src="assets/logo.png" alt="Apna Hisab Logo">
+            </a>
+            
+            <nav class="nav-links">
+                <a href="#solution">Why Us</a>
+                <a href="#how-it-works">How it Works</a>
+                <a href="#features">Features</a>
+                <a href="#about">About</a>
+            </nav>
+            
+            <a href="#CTA" class="btn btn-primary nav-cta">Early Access</a>
+            <button class="mobile-menu-btn material-symbols-rounded">menu</button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero section-spacing relative">
+            <div class="hero-container max-w grid-2">
+                <div class="hero-content reveal-up">
+                    <h1 class="hero-title">
+                        Your Money.<br><span class="text-gradient">Your Device.</span><br>Your Control.
+                    </h1>
+                    <p class="hero-subtitle">A privacy-first personal finance app that works completely offline.<br>No login. No cloud. No data sharing.</p>
+                    <p class="hero-trust-line"><span class="material-symbols-rounded">shield_lock</span> Built for India. Designed for trust.</p>
+                    <div class="hero-ctas">
+                        <a href="#CTA" class="btn btn-primary btn-lg">Early Access</a>
+                        <a href="#how-it-works" class="btn btn-outline btn-lg">How It Works</a>
+                    </div>
+                </div>
+                <!-- App Mockup -->
+                <div class="hero-visual reveal-right">
+                    <div class="phone-mockup glass-card">
+                        <div class="phone-notch"></div>
+                        <img src="assets/dashboard.jpeg" alt="Apna Hisab Dashboard" class="phone-screen">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Problem Section -->
+        <section id="problem" class="problem section-spacing">
+            <div class="max-w">
+                <div class="section-header text-center reveal-up">
+                    <div class="warning-badge glass-card"><span class="material-symbols-rounded">warning</span> Alert</div>
+                    <h2 class="section-title">Your Financial Data Isn’t Private Anymore</h2>
+                    <p class="section-subtitle">Most finance apps ask for access to your SMS, bank data, and personal transactions… and then upload everything to their servers.</p>
+                </div>
+                
+                <div class="problem-grid">
+                    <div class="problem-card glass-card reveal-up">
+                        <span class="material-symbols-rounded problem-icon" style="color:#ef4444">cloud_upload</span>
+                        <h3>Cloud Storage</h3>
+                        <p>Your spending habits are stored in the cloud.</p>
+                    </div>
+                    <div class="problem-card glass-card reveal-up" style="transition-delay: 0.1s;">
+                        <span class="material-symbols-rounded problem-icon" style="color:#ef4444">ads_click</span>
+                        <h3>Data Selling</h3>
+                        <p>Your data may be used for ads or analytics.</p>
+                    </div>
+                    <div class="problem-card glass-card reveal-up" style="transition-delay: 0.2s;">
+                        <span class="material-symbols-rounded problem-icon" style="color:#ef4444">visibility_off</span>
+                        <h3>Zero Control</h3>
+                        <p>You don’t really know who sees your data.</p>
+                    </div>
+                </div>
+
+                <div class="text-center reveal-up" style="margin-top: 4rem;">
+                    <p class="quote" style="display:inline-block; padding: 1.5rem 2.5rem; border-left: 4px solid #ef4444; background: rgba(239, 68, 68, 0.05); border-radius: 0 16px 16px 0;">
+                        "This isn’t just a tech problem. It’s a trust problem."
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Solution Section -->
+        <section id="solution" class="solution section-spacing relative">
+            <div class="max-w grid-2">
+                <div class="solution-visual reveal-right">
+                    <div class="glass-orb" style="overflow: hidden; padding: 0;">
+                        <img src="assets/logo-icon.png" alt="Apna Hisab Logo" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div class="floating-badge badge-1 glass-card">
+                        <span class="material-symbols-rounded">check_circle</span> 100% Offline
+                    </div>
+                    <div class="floating-badge badge-2 glass-card">
+                        <span class="material-symbols-rounded">vpn_key_off</span> No Logins
+                    </div>
+                </div>
+                <div class="solution-content reveal-left">
+                    <h2 class="section-title">Meet <span class="text-gradient">Apna Hisab</span></h2>
+                    <p class="section-subtitle" style="margin-bottom: 2rem;">Apna Hisab is built differently. It’s a local-first personal finance app that keeps your data where it belongs — on your device.</p>
+                    <ul class="solution-list">
+                        <li><span class="material-symbols-rounded text-gradient">cloud_off</span> No cloud storage</li>
+                        <li><span class="material-symbols-rounded text-gradient">no_accounts</span> No login required</li>
+                        <li><span class="material-symbols-rounded text-gradient">block</span> No data selling</li>
+                        <li><span class="material-symbols-rounded text-gradient">verified_user</span> Just simple, secure financial tracking—on your terms.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Core Differentiator -->
+        <section id="why-different" class="features section-spacing">
+            <div class="max-w">
+                <div class="section-header text-center reveal-up">
+                    <h2 class="section-title">Why Apna Hisab is <span class="text-gradient">Different</span></h2>
+                </div>
+                
+                <div class="features-grid">
+                    <div class="feature-card glass-card reveal-up">
+                        <div class="feature-icon-wrapper">
+                            <span class="material-symbols-rounded">privacy_tip</span>
+                        </div>
+                        <h3>Privacy First</h3>
+                        <p>Your data never leaves your phone. Ever.</p>
+                    </div>
+                    
+                    <div class="feature-card glass-card reveal-up" style="transition-delay: 0.1s;">
+                        <div class="feature-icon-wrapper">
+                            <span class="material-symbols-rounded">wifi_off</span>
+                        </div>
+                        <h3>Offline First</h3>
+                        <p>Works fully without internet.</p>
+                    </div>
+                    
+                    <div class="feature-card glass-card reveal-up" style="transition-delay: 0.2s;">
+                        <div class="feature-icon-wrapper">
+                            <span class="material-symbols-rounded">location_on</span>
+                        </div>
+                        <h3>Built for India</h3>
+                        <p>Understands Indian bank SMS automatically.</p>
+                    </div>
+                    
+                    <div class="feature-card glass-card reveal-up" style="transition-delay: 0.3s;">
+                        <div class="feature-icon-wrapper">
+                            <span class="material-symbols-rounded">diamond</span>
+                        </div>
+                        <h3>Premium Experience</h3>
+                        <p>No ads. No clutter. Just clean design.</p>
+                    </div>
+                    
+                    <div class="feature-card glass-card reveal-up" style="transition-delay: 0.4s;">
+                        <div class="feature-icon-wrapper">
+                            <span class="material-symbols-rounded">memory</span>
+                        </div>
+                        <h3>On-Device Intelligence</h3>
+                        <p>All processing happens locally—not on servers.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="features section-spacing relative">
+            <div class="max-w">
+                <div class="section-header text-center reveal-up">
+                    <h2 class="section-title">Smart Finance, <span class="text-gradient">Zero Effort</span></h2>
+                </div>
+                
+                <div class="features-grid">
+                    <div class="feature-card glass-card reveal-up">
+                        <div class="feature-icon-wrapper">
+                            <span class="material-symbols-rounded">sms</span>
+                        </div>
+                        <h3>Automatic Expense Tracking</h3>
+                        <p>Reads and understands bank SMS to track transactions automatically.</p>
+                    </div>
+                    
+                    <div class="feature-card glass-card reveal-up" style="transition-delay: 0.1s;">
+                        <div class="feature-icon-wrapper">
+                            <span class="material-symbols-rounded">dashboard</span>
+                        </div>
+                        <h3>Smart Dashboard</h3>
+                        <p>See your balance, income, and expenses in a clean, visual format.</p>
+                    </div>
+                    
+                    <div class="feature-card glass-card reveal-up" style="transition-delay: 0.2s;">
+                        <div class="feature-icon-wrapper">
+                            <span class="material-symbols-rounded">psychology</span>
+                        </div>
+                        <h3>Budget Advisor</h3>
+                        <p>Get insights based on the 50-30-20 rule to manage your money better.</p>
+                    </div>
+                    
+                    <div class="feature-card glass-card reveal-up" style="transition-delay: 0.3s;">
+                        <div class="feature-icon-wrapper">
+                            <span class="material-symbols-rounded">edit_square</span>
+                        </div>
+                        <h3>Manual Entry</h3>
+                        <p>Add cash expenses easily when needed.</p>
+                    </div>
+                    
+                    <div class="feature-card glass-card reveal-up" style="transition-delay: 0.4s;">
+                        <div class="feature-icon-wrapper">
+                            <span class="material-symbols-rounded">pie_chart</span>
+                        </div>
+                        <h3>Category Analytics</h3>
+                        <p>Understand where your money goes—clearly and instantly.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- How It Works Section -->
+        <section id="how-it-works" class="steps section-spacing">
+            <div class="max-w text-center">
+                <div class="section-header reveal-up">
+                    <h2 class="section-title">Simple. Automatic. <span class="text-gradient">Private.</span></h2>
+                    <p class="section-subtitle" style="margin-bottom: 2rem;">No login. No setup. No complexity.</p>
+                </div>
+                
+                <div class="steps-grid reveal-up">
+                    <div class="step-card glass-card">
+                        <div class="step-num text-gradient">1</div>
+                        <h3>Install Apna Hisab</h3>
+                    </div>
+                    <div class="step-card glass-card">
+                        <div class="step-num text-gradient">2</div>
+                        <h3>Allow SMS access</h3>
+                        <p class="text-muted">(only on your device)</p>
+                    </div>
+                    <div class="step-card glass-card">
+                        <div class="step-num text-gradient">3</div>
+                        <h3>App detects transactions instantly</h3>
+                    </div>
+                    <div class="step-card glass-card">
+                        <div class="step-num text-gradient">4</div>
+                        <h3>View insights safely</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Target Users Section -->
+        <section id="target-users" class="target-users section-spacing relative">
+            <div class="max-w">
+                <div class="section-header text-center reveal-up">
+                    <h2 class="section-title">Who is it for?</h2>
+                </div>
+                <div class="target-grid">
+                    <div class="target-card glass-card reveal-up">
+                        <span class="material-symbols-rounded text-gradient">work</span>
+                        <h3>Salaried professionals</h3>
+                    </div>
+                    <div class="target-card glass-card reveal-up" style="transition-delay: 0.1s;">
+                        <span class="material-symbols-rounded text-gradient">laptop_mac</span>
+                        <h3>Freelancers & self-employed</h3>
+                    </div>
+                    <div class="target-card glass-card reveal-up" style="transition-delay: 0.2s;">
+                        <span class="material-symbols-rounded text-gradient">security</span>
+                        <h3>Privacy-conscious users</h3>
+                    </div>
+                    <div class="target-card glass-card reveal-up" style="transition-delay: 0.3s;">
+                        <span class="material-symbols-rounded text-gradient">mood_bad</span>
+                        <h3>Anyone tired of complex finance apps</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Trust Section -->
+        <section class="trust-section section-spacing text-center relative">
+            <div class="cta-container glass-card max-w reveal-up">
+                <h2 class="section-title">Built on Trust, <span style="color: #ef4444;">Not Data</span></h2>
+                <div class="trust-content" style="margin-top: 2rem;">
+                    <p>We don’t believe in selling your data.<br>We don’t believe in tracking your behavior.</p>
+                    <p style="margin-top: 2rem; font-weight: 600; font-size: 1.5rem;">
+                        Apna Hisab is built with one simple principle:<br>
+                        <span class="text-gradient">If it’s your money, it should stay your data.</span>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Founder -->
+        <section id="about" class="about-section section-spacing">
+            <div class="max-w grid-2 align-center">
+                <div class="about-content reveal-left">
+                    <h2 class="section-title">Why Apna Hisab Exists</h2>
+                    <p class="section-subtitle" style="margin-bottom: 1.5rem;">Apna Hisab started with a simple observation—<br>people are forced to trade their privacy just to track their own money.</p>
+                    <p class="section-subtitle" style="margin-bottom: 1.5rem;">As a developer and a user, I wanted something better. Something simple. Something private. Something trustworthy.</p>
+                    <p class="section-subtitle" style="color: var(--md-sys-color-on-surface); font-size: 1.25rem;">So I built Apna Hisab—<br><strong>a finance app that respects you.</strong></p>
+                </div>
+                <div class="about-visual reveal-right">
+                    <div class="founder-card glass-card">
+                        <div class="glass-orb" style="width: 150px; height: 150px; margin: 0 auto 2rem; overflow: hidden; padding: 0;">
+                            <img src="assets/founder.png" alt="Founder" style="width: 100%; height: 100%; object-fit: cover;">
+                        </div>
+                        <h3>Built by a Developer</h3>
+                        <p class="text-muted">For users who care about privacy.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section id="CTA" class="cta-section section-spacing text-center relative">
+            <div class="cta-container glass-card max-w reveal-up" style="border: 2px solid rgba(56, 189, 248, 0.3);">
+                <h2 class="section-title">Take Control of Your Financial Data</h2>
+                <p class="section-subtitle" style="margin-bottom: 2.5rem;">Join early users and experience a new way of managing money—securely.</p>
+                <div class="hero-ctas" style="justify-content: center;">
+                    <a href="assets/app-release.apk" download="ApnaHisab.apk" class="btn btn-primary btn-lg" style="text-decoration: none;">Download App</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer glass-panel">
+        <div class="max-w footer-grid">
+            <div class="footer-brand">
+                <a href="#" class="logo">
+                    <img src="assets/logo.png" alt="Apna Hisab Logo">
+                </a>
+                <p>Your money, Your device, Your control.</p>
+            </div>
+            
+            <div class="footer-links" style="grid-column: span 2;">
+                <h4>Links</h4>
+                <div style="display: flex; flex-direction: column; gap: 0.75rem;">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms</a>
+                    <a href="#">Contact</a>
+                </div>
+            </div>
+            
+            <div class="footer-social">
+                <h4>Socials</h4>
+                <div class="social-icons" style="gap: 0.75rem; flex-wrap: wrap;">
+                    <a href="https://www.instagram.com/kadyantechnologies" class="glass-card" aria-label="Instagram">
+                        <!-- Instagram inline SVG via Material icon generic or actual SVG if preferred. We'll use a generic tag if material doesn't have exact brands, but material has some. Text is safer if no brand icon. -->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                    </a>
+                    <a href="https://www.x.com/kadyantech" class="glass-card" aria-label="X (Twitter)">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-twitter"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg>
+                    </a>
+                    <a href="https://www.linkedin.com/company/kadyantechnologies" class="glass-card" aria-label="LinkedIn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                    </a>
+                    <a href="mailto:[devkadyan0505@gmail.com]" class="glass-card" aria-label="Email">
+                        <span class="material-symbols-rounded" style="font-size: 20px;">mail</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom text-center">
+            <p>&copy; 2026 Kadyan technologies. All rights reserved</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
