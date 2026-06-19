@@ -1,1 +1,28 @@
-# Apna Hisab ### Your Money. Your Device. Your Control. **A beautiful, 100% offline, privacy-first personal finance & expense tracker — built for India.** [![Android](https://img.shields.io/badge/Platform-Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://play.google.com/store/apps/details?id=com.kadyantechnologies.apnahisab) [![Play Store](https://img.shields.io/badge/Get%20It%20On-Google%20Play-414141?style=for-the-badge&logo=google-play&logoColor=white)](https://play.google.com/store/apps/details?id=com.kadyantechnologies.apnahisab) [![Privacy](https://img.shields.io/badge/Privacy-First-4ADE80?style=for-the-badge&logo=shield&logoColor=white)](#-privacy-philosophy) [![License](https://img.shields.io/badge/License-Proprietary-red?style=for-the-badge)](#-license) --- ## 📖 Overview **Apna Hisab** (meaning *My Account* in Hindi) is a premium personal finance management app designed specifically for Indian users. It offers a stunning, intuitive interface to effortlessly track your income and expenses — **entirely offline**, with zero data ever leaving your device. Most finance apps require you to create an account, sync your data to the cloud, and trust a third party with your most sensitive financial information. **Apna Hisab takes the opposite approach** — your money data stays where it belongs: on your phone. > *"Privacy isn't a feature. It's the foundation."* --- ## ✨ Key Features | Feature | Description | |---|---| | 📲 **Auto SMS Tracking** | Intelligently reads bank SMS messages to detect and log transactions instantly — all processed on-device, never sent anywhere. | | 📊 **Beautiful Analytics** | Visualize your spending habits with stunning, interactive charts and insightful breakdowns by category, date, and more. | | 💱 **Multi-Currency Support** | Supports ₹ Rupee, $ Dollar, € Euro, and more — perfect for tracking global finances. | | 🔒 **Secure Backups** | Export and import your encrypted data locally whenever you switch devices. No cloud required. | | 🚫 **No Account Required** | Jump straight in. No sign-up, no email verification, no friction. | | 📴 **100% Offline** | Full functionality without an internet connection. Your data never touches a server. | | 🎨 **Premium UI** | A beautifully crafted dark-mode interface with smooth animations and a modern design language. | | 🔕 **Ad-Free** | No ads. Ever. A truly premium experience. | --- ## 🔐 Privacy Philosophy Apna Hisab is built on a **privacy-by-design** principle: - ✅ **No cloud storage** of financial data — everything lives on your device - ✅ **No data sharing** with advertisers or third parties - ✅ **No selling** of your personal information - ✅ **No mandatory account** creation - ✅ **SMS parsing happens on-device** — messages are never transmitted The only external services used are Firebase Authentication and Firebase Firestore for optional profile/referral features, which store only your name and email (via Google Sign-In). All financial transaction data remains strictly local. 📄 Read our full [Privacy Policy](https://kadyantechnologies.com/apnahisab/privacy-policy) for details. --- ## 🌐 Website This repository also contains the source code for the **official Apna Hisab landing website**, located in the `website/` directory. ### Website Tech Stack | Technology | Purpose | |---|---| | **HTML5** | Semantic page structure | | **Vanilla CSS** | Custom design system with glassmorphism, gradients & animations | | **Three.js** | Interactive 3D background with floating coins & nodes | | **GSAP + ScrollTrigger** | Smooth scroll-reveal animations and floating effects | | **Google Fonts** | Outfit & Inter typefaces for premium typography | | **Material Symbols** | Icon system throughout the UI | ### Website Pages - **`index.html`** — Main landing page (Hero, Features, Privacy, Contact, Download CTA) - **`privacy-policy.html`** — Full privacy policy page ### Website Highlights - 🌑 Dark-mode first design - 🫧 Glassmorphism cards and navigation - 🎬 Interactive 3D canvas background (mouse-reactive floating 3D objects) - 🔄 GSAP scroll-triggered reveal animations - 📱 Responsive design for all screen sizes --- ## 🛠️ Running the Website Locally The website is fully static — no build step required. ```bash # Clone the repository git clone https://github.com/kadyantechnologies/apnahisab.git # Navigate to the website folder cd apnahisab/website # Open in browser (any static server works) # Option 1: VS Code Live Server extension # Option 2: Python python -m http.server 8080 # Then open http://localhost:8080 in your browser ``` --- ## 📱 Download
+Apna Hisab
+A beautiful, privacy-first expense tracker for Android. Built for India.
+
+What is it?
+Apna Hisab lets you track your income and expenses completely offline. No cloud, no logins, no data sharing. Everything stays on your device.
+
+Features
+Auto SMS Tracking — Reads bank SMS to log transactions automatically
+Analytics — Charts and insights to understand your spending
+Multi-Currency — Supports INR, USD, EUR, and more
+Backup & Restore — Export and import your data locally
+No Ads — Clean, distraction-free experience
+100% Offline — Works without internet
+Privacy
+Your financial data never leaves your device. We have no server to store it on.
+
+Read the full 
+Privacy Policy
+.
+
+Download
+Download on Google Play
+
+Contact
+Email: 
+saurabhdev@kadyantechnologies.com
+Phone: +91 90534 16957
+© 2026 Kadyan Technologies. All rights reserved.
